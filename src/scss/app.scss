@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+:root {
+  --bs-body-bg: #ffffff;
+  --bs-body-font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  color: #7686fe;
+  :hover {
+    color: black;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex-grow: 1;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
