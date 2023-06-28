@@ -6,7 +6,7 @@ const Copyright = () => {
     <div className="copy copyright px-2 py-3">
       <div className="container-fluid">
         <p className="text-center mb-0">
-          Copyright © | Todos los derechos reservados 2022. Alaska . Tandil |{" "}
+          Copyright © | Todos los derechos reservados 2023. Alaska . Tandil |{" "}
           <a
             href="https://www.linkedin.com/in/javier-ignacio-rivarola-509a12235/
             "
